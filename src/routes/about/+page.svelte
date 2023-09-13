@@ -1,3 +1,8 @@
+<script>
+
+	import { FACTS } from "$lib/data/info";
+
+</script>
 <svelte:head>
 	<title>Sobre nosotros: Flores Le Roses</title>
 </svelte:head>
@@ -20,23 +25,20 @@
 	<div class="row">
 		<div class="col-12">
 			<!-- progressCounter -->
-			<ul class="progressCounter list-unstyled mb-2 d-flex flex-wrap text-capitalize text-center">
-				<li class="mb-md-0 mb-3">
-					<strong class="d-block fwEbold counter mb-2">229</strong>
-					<strong class="d-block text-uppercase txtWrap">Happy Clients</strong>
+			<ul class="progressCounter flex justify-center list-unstyled mb-2 d-flex flex-wrap text-capitalize text-center">
+				<li class="mb-md-0 mb-4">
+					<strong class="d-block fwEbold counter mb-2"> +{FACTS.CUSTOMERS_HAPPY} </strong>
+					<strong class="d-block text-uppercase txtWrap">Clientes Felices</strong>
 				</li>
-				<li class="mb-md-0 mb-3">
-					<strong class="d-block fwEbold counter mb-2">109</strong>
-					<strong class="d-block text-uppercase txtWrap">completed project</strong>
+				<li class="mb-md-0 mb-4">
+					<strong class="d-block fwEbold counter mb-2">+{FACTS.PRODUCTS}</strong>
+					<strong class="d-block text-uppercase txtWrap">Productos</strong>
 				</li>
-				<li class="mb-md-0 mb-3">
-					<strong class="d-block fwEbold counter mb-2">22</strong>
-					<strong class="d-block text-uppercase txtWrap">awesome staff</strong>
+				<li class="mb-md-0 mb-4">
+					<strong class="d-block fwEbold counter mb-2">+{FACTS.DELIVERY}</strong>
+					<strong class="d-block text-uppercase txtWrap">Entregas realizadas</strong>
 				</li>
-				<li class="mb-md-0 mb-3">
-					<strong class="d-block fwEbold counter mb-2">11</strong>
-					<strong class="d-block text-uppercase txtWrap">winning awards</strong>
-				</li>
+			
 			</ul>
 		</div>
 	</div>
@@ -53,13 +55,13 @@
 						<div class="card-header px-xl-5 py-xl-3" id="headingOne">
 							<h5 class="mb-0">
 								<button class="btn btn-link fwEbold text-uppercase text-left w-100 p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									connecting people <i class="fas fa-sort-down float-right" />
+									Nuestra Historia<i class="fas fa-sort-down float-right" />
 								</button>
 							</h5>
 						</div>
 						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 							<div class="card-body px-xl-5 py-0">
-								<p class="mb-7">To succeed you must believe. When you believe, you will succeed. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Let me be clear, you have to make it through the jungle to make it to paradise, that’s the key, Lion! Lion!</p>
+								<p class="mb-7">En Flores Le Roses, nuestra historia es un viaje apasionante que comenzó con un profundo amor por las flores. Desde nuestros inicios en Bogotá, hemos cultivado un compromiso inquebrantable con la belleza natural y la frescura de las flores. Lo que comenzó como una pequeña floristería local ha crecido hasta convertirse en un nombre de confianza en la comunidad, llevando la alegría de las flores a cada rincón de nuestra ciudad.</p>
 							</div>
 						</div>
 					</div>
@@ -67,13 +69,13 @@
 						<div class="card-header px-xl-5 py-xl-3" id="headingTwo">
 							<h5 class="mb-0">
 								<button class="btn btn-link fwEbold text-uppercase text-left w-100 collapsed p-0" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									we build your dream <i class="fas fa-sort-down float-right" />
+									Nuestra Pasión por las Flores <i class="fas fa-sort-down float-right" />
 								</button>
 							</h5>
 						</div>
 						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 							<div class="card-body px-xl-5 py-0">
-								<p class="mb-7">To succeed you must believe. When you believe, you will succeed. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Let me be clear, you have to make it through the jungle to make it to paradise, that’s the key, Lion! Lion!</p>
+								<p class="mb-7">En el corazón de Flores Le Roses late una pasión desbordante por las flores. Cada día, nuestro equipo se dedica a seleccionar las flores más hermosas y frescas, transformándolas en arreglos florales que son verdaderas expresiones de amor, alegría y gratitud. Creemos que las flores tienen el poder de comunicar emociones de una manera única y especial, y trabajamos incansablemente para que cada uno de nuestros arreglos sea una obra maestra floral que ilumine tu vida.</p>
 							</div>
 						</div>
 					</div>
@@ -81,13 +83,13 @@
 						<div class="card-header px-xl-5 py-xl-3" id="headingThree">
 							<h5 class="mb-0">
 								<button class="btn btn-link fwEbold text-uppercase text-left w-100 collapsed p-0" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-									nothing to fear <i class="fas fa-sort-down float-right" />
+									Nuestra Misión <i class="fas fa-sort-down float-right" />
 								</button>
 							</h5>
 						</div>
 						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 							<div class="card-body px-xl-5 py-0">
-								<p class="mb-7">To succeed you must believe. When you believe, you will succeed. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Let me be clear, you have to make it through the jungle to make it to paradise, that’s the key, Lion! Lion!</p>
+								<p class="mb-7">En Flores Le Roses, nuestra misión es simple pero profunda: ayudarte a crear momentos inolvidables. Cada uno de nuestros arreglos es diseñado con cuidado y atención meticulosa a los detalles para que puedas transmitir tus sentimientos de la manera más auténtica posible. Nos enorgullece ser parte de tus ocasiones especiales, desde celebraciones de amor y felicitaciones hasta expresiones de condolencias. Tu confianza en nosotros nos impulsa a seguir brindándote lo mejor en el mundo de las flores.</p>
 							</div>
 						</div>
 					</div>
@@ -95,13 +97,13 @@
 						<div class="card-header px-xl-5 py-xl-3" id="headingFour">
 							<h5 class="mb-0">
 								<button class="btn btn-link fwEbold text-uppercase text-left w-100 collapsed p-0" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-									make the world better <i class="fas fa-sort-down float-right" />
+									Nuestro Compromiso<i class="fas fa-sort-down float-right" />
 								</button>
 							</h5>
 						</div>
 						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
 							<div class="card-body px-xl-5 py-0">
-								<p class="mb-7">To succeed you must believe. When you believe, you will succeed. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Let me be clear, you have to make it through the jungle to make it to paradise, that’s the key, Lion! Lion!</p>
+								<p class="mb-7">Nuestro compromiso va más allá de la venta de flores. En Flores Le Roses, nos esforzamos por cultivar relaciones duraderas con nuestros clientes. Valoramos tu confianza y te prometemos calidad, puntualidad y atención personalizada en cada interacción. Estamos aquí para compartir nuestra pasión por las flores contigo y para ayudarte a crear recuerdos que florecerán para siempre. Gracias por ser parte de nuestra historia y por permitirnos ser parte de la tuya.</p>
 							</div>
 						</div>
 					</div>
@@ -113,172 +115,40 @@
 <section class="processStepSec container pt-xl-23 pb-xl-10 pt-lg-20 pb-lg-10 pt-md-16 pb-md-8 pt-10 pb-0">
 	<div class="row">
 		<header class="col-12 mainHeader mb-3 text-center">
-			<h1 class="headingIV playfair fwEblod mb-4">Delivery Process</h1>
+			<h1 class="headingIV playfair fwEblod mb-4">Proceso de entrega</h1>
 			<span class="headerBorder d-block mb-5"><img src="images/hbdr.png" alt="Header Border" class="img-fluid img-bdr" /></span>
 		</header>
 	</div>
 	<div class="row">
 		<div class="col-12 pl-xl-23 mb-lg-3 mb-10">
 			<div class="stepCol position-relative bg-lightGray py-6 px-6">
-				<strong class="mainTitle text-uppercase mt-n8 mb-5 d-block text-center py-1 px-3">step 01</strong>
-				<h2 class="headingV fwEblod text-uppercase mb-3">Choose your products</h2>
-				<p class="mb-5">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour. Both betanin</p>
+				<strong class="mainTitle text-uppercase mt-n8 mb-5 d-block text-center py-1 px-3">paso 01</strong>
+				<h2 class="headingV fwEblod text-uppercase mb-3">Escoge tu Producto</h2>
+				<p class="mb-5">Elige el producto floral perfecto de nuestro catálogo que mejor se adapte a tu ocasión y sentimientos.</p>
 			</div>
 		</div>
 		<div class="col-12 pr-xl-23 mb-lg-3 mb-10">
 			<div class="stepCol rightArrow position-relative bg-lightGray py-6 px-6 float-right">
-				<strong class="mainTitle text-uppercase mt-n8 mb-5 d-block text-center py-1 px-3">step 02</strong>
-				<h2 class="headingV fwEblod text-uppercase mb-3">Connect nearest stored</h2>
-				<p class="mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+				<strong class="mainTitle text-uppercase mt-n8 mb-5 d-block text-center py-1 px-3">paso 02</strong>
+				<h2 class="headingV fwEblod text-uppercase mb-3">Comparte tu Ubicación</h2>
+				<p class="mb-5">Proporciona la dirección de entrega y cualquier información relevante para asegurarnos de que tus flores lleguen al destino correcto.</p>
 			</div>
 		</div>
 		<div class="col-12 pl-xl-23 mb-lg-3 mb-10">
 			<div class="stepCol position-relative bg-lightGray py-6 px-6">
-				<strong class="mainTitle text-uppercase mt-n8 mb-5 d-block text-center py-1 px-3">step 03</strong>
-				<h2 class="headingV fwEblod text-uppercase mb-3">Share your location</h2>
-				<p class="mb-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+				<strong class="mainTitle text-uppercase mt-n8 mb-5 d-block text-center py-1 px-3">paso 03</strong>
+				<h2 class="headingV fwEblod text-uppercase mb-3">Preparamos tu Entrega</h2>
+				<p class="mb-5">Nuestro equipo de expertos floristas prepara tu arreglo con flores frescas y meticulosa atención a los detalles.</p>
 			</div>
 		</div>
 		<div class="col-12 pr-xl-23 mb-lg-3 mb-10">
 			<div class="stepCol rightArrow position-relative bg-lightGray py-6 px-6 float-right">
 				<strong class="mainTitle text-uppercase mt-n8 mb-5 d-block text-center py-1 px-3">step 04</strong>
-				<h2 class="headingV fwEblod text-uppercase mb-3">Get delivered fast</h2>
-				<p class="mb-5">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment.</p>
+				<h2 class="headingV fwEblod text-uppercase mb-3">Proceso de Entrega</h2>
+				<p class="mb-5">Nuestros mensajeros expertos se encargan de entregar tus flores puntualmente, manteniéndote informado sobre el estado de tu entrega. Confía en nosotros para hacer que tus momentos sean inolvidables.</p>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="teamSec pt-xl-12 pb-xl-21 pt-lg-10 pb-lg-20 pt-md-8 pb-md-16 pt-0 pb-4">
-	<div class="container">
-		<div class="row">
-			<header class="col-12 mainHeader mb-9 text-center">
-				<h1 class="headingIV playfair fwEblod mb-4">Meet Our Team</h1>
-				<span class="headerBorder d-block mb-5"><img src="images/hbdr.png" alt="Header Border" class="img-fluid img-bdr" /></span>
-			</header>
-		</div>
-		<div class="row">
-			<div class="col-12 col-sm-6 col-lg-4 mb-lg-0 mb-6">
-				<article class="teamBlock overflow-hidden">
-					<span class="imgWrap position-relative d-block w-100 mb-4">
-						<img src="images/img82.jpg" class="img-fluid" alt="description" />
-						<ul class="list-unstyled position-absolute mb-0 d-flex justify-content-center socialNetworks">
-							<li><a href="/" class="fab fa-facebook-f" /></li>
-							<li><a href="/" class="fab fa-twitter" /></li>
-							<li><a href="/" class="fab fa-instagram" /></li>
-						</ul>
-					</span>
-					<div class="textDetail w-100 text-center">
-						<h3>
-							<strong class="text-uppercase d-block fwEbold name mb-2"><a href="/">redikiel</a></strong>
-							<strong class="text-capitalize d-block desination">Co - Founder & CEO</strong>
-						</h3>
-					</div>
-				</article>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-4 mb-lg-0 mb-6">
-				<article class="teamBlock overflow-hidden">
-					<span class="imgWrap position-relative d-block w-100 mb-4">
-						<img src="images/img83.jpg" class="img-fluid" alt="description" />
-						<ul class="list-unstyled position-absolute mb-0 d-flex justify-content-center socialNetworks">
-							<li><a href="/" class="fab fa-facebook-f" /></li>
-							<li><a href="/" class="fab fa-twitter" /></li>
-							<li><a href="/" class="fab fa-instagram" /></li>
-						</ul>
-					</span>
-					<div class="textDetail w-100 text-center">
-						<h3>
-							<strong class="text-uppercase d-block fwEbold name mb-2"><a href="/">Angela</a></strong>
-							<strong class="text-capitalize d-block desination">Chief of Marketing Team</strong>
-						</h3>
-					</div>
-				</article>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-4 mb-lg-0 mb-6">
-				<article class="teamBlock overflow-hidden">
-					<span class="imgWrap position-relative d-block w-100 mb-4">
-						<img src="images/img84.jpg" class="img-fluid" alt="description" />
-						<ul class="list-unstyled position-absolute mb-0 d-flex justify-content-center socialNetworks">
-							<li><a href="/" class="fab fa-facebook-f" /></li>
-							<li><a href="/" class="fab fa-twitter" /></li>
-							<li><a href="/" class="fab fa-instagram" /></li>
-						</ul>
-					</span>
-					<div class="textDetail w-100 text-center">
-						<h3>
-							<strong class="text-uppercase d-block fwEbold name mb-2"><a href="/">kevin lee</a></strong>
-							<strong class="text-capitalize d-block desination">Art Director</strong>
-						</h3>
-					</div>
-				</article>
-			</div>
-		</div>
-	</div>
-</section>
-<div class="container-fluid px-xl-20 mb-xl-24 mb-lg-20 mb-md-16 mb-10">
-	<!-- subscribeSecBlock -->
-	<section class="subscribeSecBlock bgCover pt-xl-24 pb-xl-12 pt-lg-20 pb-lg-10 pt-md-16 pb-md-10 py-10 px-3" style="background-image: url(images/n-bg.jpg)">
-		<header class="col-12 mainHeader mb-9 text-center">
-			<h1 class="headingIV playfair fwEblod mb-4">Subscribe Our Newsletter</h1>
-			<span class="headerBorder d-block mb-5"><img src="images/hbdr.png" alt="Header Border" class="img-fluid img-bdr" /></span>
-			<p class="mb-6">Enter Your email address to join our mailing list and keep yourself update</p>
-		</header>
-		<form class="emailForm1 mx-auto overflow-hidden d-flex flex-wrap">
-			<input type="email" class="form-control px-4 border-0" placeholder="Enter your mail..." />
-			<button type="submit" class="btn btnTheme btnShop fwEbold text-white py-3 px-4 py-md-3 px-md-4">Shop Now <i class="fas fa-arrow-right ml-2" /></button>
-		</form>
-	</section>
-</div>
-<!-- footerHolder -->
-<aside class="footerHolder overflow-hidden bg-lightGray pt-xl-23 pb-xl-8 pt-lg-10 pb-lg-8 pt-md-12 pb-md-8 pt-10">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-sm-6 col-lg-4 mb-lg-0 mb-4">
-				<h3 class="headingVI fwEbold text-uppercase mb-7">Contact Us</h3>
-				<ul class="list-unstyled footerContactList mb-3">
-					<li class="mb-3 d-flex flex-nowrap pr-xl-20 pr-0">
-						<span class="icon icon-place mr-3" />
-						<address class="fwEbold m-0">Address: London Oxford Street, 012 United Kingdom.</address>
-					</li>
-					<li class="mb-3 d-flex flex-nowrap"><span class="icon icon-phone mr-3" /> <span class="leftAlign">Phone : <a href="/">(+032) 3456 7890</a></span></li>
-					<li class="email d-flex flex-nowrap"><span class="icon icon-email mr-2" /> <span class="leftAlign">Email: <a href="/">Botanicalstore@gmail.com</a></span></li>
-				</ul>
-				<ul class="list-unstyled followSocailNetwork d-flex flex-nowrap">
-					<li class="fwEbold mr-xl-11 mr-md-8 mr-3">Follow us:</li>
-					<li class="mr-xl-6 mr-md-5 mr-2"><a href="/" class="fab fa-facebook-f" /></li>
-					<li class="mr-xl-6 mr-md-5 mr-2"><a href="/" class="fab fa-twitter" /></li>
-					<li class="mr-xl-6 mr-md-5 mr-2"><a href="/" class="fab fa-pinterest" /></li>
-					<li class="mr-2"><a href="/" class="fab fa-google-plus-g" /></li>
-				</ul>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3 pl-xl-14 mb-lg-0 mb-4">
-				<h3 class="headingVI fwEbold text-uppercase mb-6">Information</h3>
-				<ul class="list-unstyled footerNavList">
-					<li class="mb-1"><a href="/">New Products</a></li>
-					<li class="mb-2"><a href="/">Top Sellers</a></li>
-					<li class="mb-2"><a href="/">Our Blog</a></li>
-					<li class="mb-2"><a href="/">About Our Shop</a></li>
-					<li><a href="/">Privacy policy</a></li>
-				</ul>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-3 pl-xl-12 mb-lg-0 mb-4">
-				<h3 class="headingVI fwEbold text-uppercase mb-7">My Account</h3>
-				<ul class="list-unstyled footerNavList">
-					<li class="mb-1"><a href="/">My account</a></li>
-					<li class="mb-2"><a href="/">Discount</a></li>
-					<li class="mb-2"><a href="/">Orders history</a></li>
-					<li><a href="/">Personal information</a></li>
-				</ul>
-			</div>
-			<div class="col-12 col-sm-6 col-lg-2 pl-xl-18 mb-lg-0 mb-4">
-				<h3 class="headingVI fwEbold text-uppercase mb-5">PRODUCTS</h3>
-				<ul class="list-unstyled footerNavList">
-					<li class="mb-2"><a href="/">Delivery</a></li>
-					<li class="mb-2"><a href="/">Legal notice</a></li>
-					<li class="mb-2"><a href="/">Prices drop</a></li>
-					<li class="mb-2"><a href="/">New products</a></li>
-					<li><a href="/">Best sales</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</aside>
+
+

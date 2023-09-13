@@ -22,3 +22,10 @@ export const SOCIAL = {
     WHATSAPP: 'https://api.whatsapp.com/send/?phone=573107852852',
 }
 export const PRODUCTS_TAGS = ["Globos Y Bombas", "Bonsaí", "Ramos Y Bouquets", "Cajas florales", "Otros Arreglos Florales", "Peluches", "Chocolates Y Confitería", "Orquídeas", "Amor", "Felicitaciones"]
+
+export const FACTS = {
+    CUSTOMERS_HAPPY : 500,
+    PRODUCTS:122,
+    DELIVERY:500
+
+}
