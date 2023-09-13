@@ -9,17 +9,20 @@
 <header id="header" class="pt-lg-5 pt-md-3 pt-2 position-absolute w-100">
 	<div class="container-fluid px-xl-17 px-lg-5 px-md-3 px-0 d-flex flex-wrap">
 		<div class="col-6 col-sm-3 col-lg-2 order-sm-2 order-md-0 dis-none">
-			<!-- langList -->
 			<ul class="nav nav-tabs langList pt-xl-6 pt-lg-4 pt-3 border-bottom-0" />
 		</div>
 		<div class="col-12 col-sm-6 col-lg-8 static-block">
-			<!-- mainHolder -->
 			<div class="mainHolder justify-content-center">
-				<!-- pageNav1 -->
 				<nav class="navbar navbar-expand-lg navbar-light p-0 pageNav1 position-static">
-					<button type="button" class="navbar-toggle collapsed position-relative mt-md-2" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-					</button>
+					<div class="navbar-toggle" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false">
+						<div class="background">
+							<button class="menu__icon burger_button">
+								<span />
+								<span />
+								<span />
+							</button>
+						</div>
+					</div>
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav mx-auto text-uppercase d-inline-block">
 							<li class="nav-item">
@@ -99,3 +102,72 @@
 		<p class="mb-0">©Copyright All Rights Reserved.</p>
 	</div>
 </footer>
+
+<style>
+	.pageNav1 .navbar-toggle {
+		border: none;
+	}
+
+	/* <reset-style> ============================ */
+	.burger_button {
+		border: none;
+		background: none;
+		padding: 0;
+		margin: 0;
+		cursor: pointer;
+		font-family: inherit;
+	}
+	/* ============================ */
+	/* <style for bg> ======== */
+	.background {
+		border-radius: 16px;
+		border: 1px solid #1a1a1a;
+		background: #ff89ba;
+		mix-blend-mode: luminosity;
+		box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+		backdrop-filter: blur(15px);
+		width: 50px;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* <style for menu__icon> ======== */
+	.menu__icon {
+		width: 32px;
+		height: 32px;
+		padding: 4px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		transition: transform 0.4s;
+	}
+
+	.menu__icon span {
+		width: 100%;
+		height: 0.25rem;
+		border-radius: 0.125rem;
+		background-color: #f8f4f6;
+		box-shadow: 0 0.5px 2px 0 #f8f4f6;
+		transition: width 0.4s, transform 0.4s, background-color 0.4s;
+	}
+
+	.menu__icon :nth-child(1) {
+		width: 75%;
+	}
+
+	.menu__icon :nth-child(2) {
+		width: 50%;
+	}
+
+	.menu__icon:hover {
+		transform: rotate(-90deg);
+	}
+
+	.menu__icon:hover span {
+		width: 0.25rem;
+		transform: translateX(10px);
+		background-color: rgb(255, 59, 48);
+	}
+</style>
