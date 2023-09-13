@@ -351,18 +351,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- productOfferSec -->
-	<div class="productOfferSec container overflow-hidden py-xl-12 py-lg-10 py-md-8 py-5">
-		<div class="row">
-			<div class="col-12 col-sm-6 mb-sm-0 mb-2">
-				<a href="shop.html" class="w-100"><img src="images/ad1.jpg" alt="description" class="img-fluid">.</a>
-			</div>
-			<div class="col-12 col-sm-6">
-				<a href="shop.html" class="w-100"><img src="images/ad2.jpg" alt="description" class="img-fluid">.</a>
-			</div>
-		</div>
-	</div>
-	<!-- dealSecHolder -->
+	
 	<section class="dealSecHolder container-fluid overflow-hidden py-xl-12 py-lg-10 py-md-8 py-5">
 		<!-- mainHeader -->
 		<header class="col-12 mainHeader mb-7 text-center">

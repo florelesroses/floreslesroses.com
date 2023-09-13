@@ -21,3 +21,4 @@ export const SOCIAL = {
     TELEGRAM:'',
     WHATSAPP:'https://api.whatsapp.com/send/?phone=573107852852',
 }
+export const PRODUCTS_TAGS = ["","","","",""]
