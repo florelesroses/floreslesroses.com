@@ -15,11 +15,11 @@
 								<div class="txtwrap pr-lg-10">
 									<h1 class="fwEbold position-relative pb-lg-8 pb-4 mb-xl-7 mb-lg-6">Houseplant <span class="text-break d-block">The Perfect Choice.</span></h1>
 									<p class="mb-xl-15 mb-lg-10">Lorem ipsum is simply dummy text of the printing and typesetting industry <br>has been the industry's standard.</p>
-									<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3">Shop Now <i class="fas fa-arrow-right ml-2"></i></a>
+									<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3">Shop Now <i class="fas fa-arrow-right ml-2"></i>.</a>
 								</div>
 							</div>
 							<div class="imgHolder">
-								<img src="images/img77.png" alt="image description" class="img-fluid w-100">
+								<img src="images/img77.png" alt="description" class="img-fluid w-100">
 							</div>
 						</div>
 					</div>
@@ -36,11 +36,11 @@
 									<span class="title d-block text-uppercase fwEbold position-relative pl-2 mb-lg-5 mb-sm-3 mb-1">wellcome to botanical</span>
 									<h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">Plants Gonna Make  <span class="text-break d-block">People Happy.</span></h2>
 									<p class="mb-xl-15 mb-lg-10">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-									<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Shop Now <i class="fas fa-arrow-right ml-2"></i></a>
+									<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Shop Now <i class="fas fa-arrow-right ml-2"></i>.</a>
 								</div>
 							</div>
 							<div class="imgHolder2">
-								<img src="images/img78.png" alt="image description" class="img-fluid w-100">
+								<img src="images/img78.png" alt="description" class="img-fluid w-100">
 							</div>
 						</div>
 					</div>
@@ -57,11 +57,11 @@
 									<span class="title d-block text-uppercase fwEbold position-relative pl-2 mb-lg-5 mb-sm-3 mb-1">wellcome to botanical</span>
 									<h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">Plants for healthy</h2>
 									<p class="mb-xl-15 mb-lg-10">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-									<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Shop Now <i class="fas fa-arrow-right ml-2"></i></a>
+									<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Shop Now <i class="fas fa-arrow-right ml-2"></i>.</a>
 								</div>
 							</div>
 							<div class="imgHolder3">
-								<img src="images/img79.png" alt="image description" class="img-fluid w-100">
+								<img src="images/img79.png" alt="description" class="img-fluid w-100">
 							</div>
 						</div>
 					</div>
@@ -69,19 +69,19 @@
 			</div>
 		</div>
 		<div class="slickNavigatorsWrap">
-			<a href="#" class="slick-prev"><i class="icon-leftarrow"></i></a>
-			<a href="#" class="slick-next"><i class="icon-rightarrow"></i></a>
+			<a href="/" class="slick-prev"><i class="icon-leftarrow"></i>.</a>
+			<a href="/" class="slick-next"><i class="icon-rightarrow"></i>.</a>
 		</div>
 	</section>
 	<!-- chooseUs-sec -->
 	<section class="chooseUs-sec container pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
 		<div class="row">
 			<div class="col-12 col-lg-6 mb-lg-0 mb-4">
-				<img src="images/img01.jpg" alt="image description" class="img-fluid">
+				<img src="images/img01.jpg" alt="description" class="img-fluid">
 			</div>
 			<div class="col-12 col-lg-6 pr-4">
 				<h2 class="headingII fwEbold playfair position-relative mb-6 pb-5">Why choose us ?</h2>
-				<p class="mb-xl-14 mb-lg-10">Lorem ipsum is simply dummy text of the printing and typesetting industry, lorem ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley ... <a href="javascript:void(0);" class="btnMore"><i>Learn More</i></a></p>
+				<p class="mb-xl-14 mb-lg-10">Lorem ipsum is simply dummy text of the printing and typesetting industry, lorem ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley ... <a href="/" class="btnMore"><i>Learn More</i>.</a></p>
 				<!-- chooseList -->
 				<ul class="list-unstyled chooseList">
 					<li class="d-flex justify-content-start mb-xl-7 mb-lg-5 mb-3">
@@ -122,12 +122,12 @@
 			<div class="featureCol px-3 mb-6">
 				<div class="border">
 					<div class="imgHolder position-relative w-100 overflow-hidden">
-						<img src="images/img02.jpg" alt="image description" class="img-fluid w-100">
+						<img src="images/img02.jpg" alt="description" class="img-fluid w-100">
 						<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-							<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+							<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 						</ul>
 					</div>
 					<div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
@@ -140,12 +140,12 @@
 			<div class="featureCol px-3 position-relative mb-6">
 				<div class="border">
 					<div class="imgHolder position-relative w-100 overflow-hidden">
-						<img src="images/img03.jpg" alt="image description" class="img-fluid w-100">
+						<img src="images/img03.jpg" alt="description" class="img-fluid w-100">
 						<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-							<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+							<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 						</ul>
 					</div>
 					<div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
@@ -159,12 +159,12 @@
 			<div class="featureCol px-3 mb-6">
 				<div class="border">
 					<div class="imgHolder position-relative w-100 overflow-hidden">
-						<img src="images/img04.jpg" alt="image description" class="img-fluid w-100">
+						<img src="images/img04.jpg" alt="description" class="img-fluid w-100">
 						<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-							<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+							<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 						</ul>
 					</div>
 					<div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
@@ -177,12 +177,12 @@
 			<div class="featureCol px-3 position-relative mb-6">
 				<div class="border">
 					<div class="imgHolder position-relative w-100 overflow-hidden">
-						<img src="images/img05.jpg" alt="image description" class="img-fluid w-100">
+						<img src="images/img05.jpg" alt="description" class="img-fluid w-100">
 						<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-							<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+							<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 						</ul>
 					</div>
 					<div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
@@ -196,12 +196,12 @@
 			<div class="featureCol px-3 mb-6">
 				<div class="border">
 					<div class="imgHolder position-relative w-100 overflow-hidden">
-						<img src="images/img06.jpg" alt="image description" class="img-fluid w-100">
+						<img src="images/img06.jpg" alt="description" class="img-fluid w-100">
 						<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-							<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+							<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 						</ul>
 					</div>
 					<div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
@@ -214,12 +214,12 @@
 			<div class="featureCol position-relative px-3 mb-6">
 				<div class="border">
 					<div class="imgHolder position-relative w-100 overflow-hidden">
-						<img src="images/img07.jpg" alt="image description" class="img-fluid w-100">
+						<img src="images/img07.jpg" alt="description" class="img-fluid w-100">
 						<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-							<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+							<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 						</ul>
 					</div>
 					<div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
@@ -234,12 +234,12 @@
 			<div class="featureCol px-3 mb-6">
 				<div class="border">
 					<div class="imgHolder position-relative w-100 overflow-hidden">
-						<img src="images/img08.jpg" alt="image description" class="img-fluid w-100">
+						<img src="images/img08.jpg" alt="description" class="img-fluid w-100">
 						<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-							<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+							<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 						</ul>
 					</div>
 					<div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
@@ -252,12 +252,12 @@
 			<div class="featureCol position-relative px-3 mb-6">
 				<div class="border">
 					<div class="imgHolder position-relative w-100 overflow-hidden">
-						<img src="images/img09.jpg" alt="image description" class="img-fluid w-100">
+						<img src="images/img09.jpg" alt="description" class="img-fluid w-100">
 						<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-							<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+							<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 						</ul>
 					</div>
 					<div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
@@ -271,12 +271,12 @@
 			<div class="featureCol px-3 mb-6">
 				<div class="border">
 					<div class="imgHolder position-relative w-100 overflow-hidden">
-						<img src="images/img10.jpg" alt="image description" class="img-fluid w-100">
+						<img src="images/img10.jpg" alt="description" class="img-fluid w-100">
 						<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-							<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+							<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 						</ul>
 					</div>
 					<div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
@@ -289,12 +289,12 @@
 			<div class="featureCol position-relative px-3 mb-6">
 				<div class="border">
 					<div class="imgHolder position-relative w-100 overflow-hidden">
-						<img src="images/img11.jpg" alt="image description" class="img-fluid w-100">
+						<img src="images/img11.jpg" alt="description" class="img-fluid w-100">
 						<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-							<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-							<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+							<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+							<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 						</ul>
 					</div>
 					<div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
@@ -355,10 +355,10 @@
 	<div class="productOfferSec container overflow-hidden py-xl-12 py-lg-10 py-md-8 py-5">
 		<div class="row">
 			<div class="col-12 col-sm-6 mb-sm-0 mb-2">
-				<a href="shop.html" class="w-100"><img src="images/ad1.jpg" alt="image description" class="img-fluid"></a>
+				<a href="shop.html" class="w-100"><img src="images/ad1.jpg" alt="description" class="img-fluid">.</a>
 			</div>
 			<div class="col-12 col-sm-6">
-				<a href="shop.html" class="w-100"><img src="images/ad2.jpg" alt="image description" class="img-fluid"></a>
+				<a href="shop.html" class="w-100"><img src="images/ad2.jpg" alt="description" class="img-fluid">.</a>
 			</div>
 		</div>
 	</div>
@@ -378,12 +378,12 @@
 				<div class="featureCol position-relative w-100 px-3 mb-sm-8 mb-6">
 					<div class="border">
 						<div class="imgHolder position-relative w-100 overflow-hidden">
-							<img src="images/img12.jpg" alt="image description" class="img-fluid w-100">
+							<img src="images/img12.jpg" alt="description" class="img-fluid w-100">
 							<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-								<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+								<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 							</ul>
 						</div>
 						<div class="text-center py-5 px-2">
@@ -400,12 +400,12 @@
 				<div class="featureCol px-3 w-100 mb-sm-8 mb-6">
 					<div class="border">
 						<div class="imgHolder position-relative w-100 overflow-hidden">
-							<img src="images/img13.jpg" alt="image description" class="img-fluid w-100">
+							<img src="images/img13.jpg" alt="description" class="img-fluid w-100">
 							<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-								<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+								<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 							</ul>
 						</div>
 						<div class="text-center py-5 px-2">
@@ -420,12 +420,12 @@
 				<div class="featureCol position-relative w-100 px-3 mb-sm-8 mb-6">
 					<div class="border">
 						<div class="imgHolder position-relative w-100 overflow-hidden">
-							<img src="images/img14.jpg" alt="image description" class="img-fluid w-100">
+							<img src="images/img14.jpg" alt="description" class="img-fluid w-100">
 							<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-								<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+								<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 							</ul>
 						</div>
 						<div class="text-center py-5 px-2">
@@ -441,12 +441,12 @@
 				<div class="featureCol px-3 w-100 mb-sm-8 mb-6">
 					<div class="border">
 						<div class="imgHolder position-relative w-100 overflow-hidden">
-							<img src="images/img15.jpg" alt="image description" class="img-fluid w-100">
+							<img src="images/img15.jpg" alt="description" class="img-fluid w-100">
 							<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-								<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+								<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 							</ul>
 						</div>
 						<div class="text-center py-5 px-2">
@@ -461,12 +461,12 @@
 				<div class="featureCol position-relative w-100 px-3 mb-sm-8 mb-6">
 					<div class="border">
 						<div class="imgHolder position-relative w-100 overflow-hidden">
-							<img src="images/img16.jpg" alt="image description" class="img-fluid w-100">
+							<img src="images/img16.jpg" alt="description" class="img-fluid w-100">
 							<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-								<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+								<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 							</ul>
 						</div>
 						<div class="text-center py-5 px-2">
@@ -482,12 +482,12 @@
 				<div class="featureCol px-3 w-100 mb-sm-8 mb-6">
 					<div class="border">
 						<div class="imgHolder position-relative w-100 overflow-hidden">
-							<img src="images/img15.jpg" alt="image description" class="img-fluid w-100">
+							<img src="images/img15.jpg" alt="description" class="img-fluid w-100">
 							<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-								<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+								<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 							</ul>
 						</div>
 						<div class="text-center py-5 px-2">
@@ -502,12 +502,12 @@
 				<div class="featureCol w-100 px-3 mb-sm-8 mb-6">
 					<div class="border">
 						<div class="imgHolder position-relative w-100 overflow-hidden">
-							<img src="images/img15.jpg" alt="image description" class="img-fluid w-100">
+							<img src="images/img15.jpg" alt="description" class="img-fluid w-100">
 							<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-heart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-cart d-block"></a></li>
-								<li class="mr-2 overflow-hidden"><a href="javascript:void(0);" class="icon-eye d-block"></a></li>
-								<li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-heart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block">.</a></li>
+								<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block">.</a></li>
+								<li class="overflow-hidden"><a href="/" class="icon-arrow d-block">.</a></li>
 							</ul>
 						</div>
 						<div class="text-center py-5 px-2">
@@ -527,37 +527,37 @@
 				<div class="partnerSlider d-flex flex-wrap">
 					<div>
 						<div class="logoColumn d-flex align-items-center justify-content-center">
-							<a href="javascript:void(0);"><img src="images/p-logo1.png" alt="Partner Logo" class="img-fluid"></a>
+							<a href="/"><img src="images/p-logo1.png" alt="Partner Logo" class="img-fluid">.</a>
 						</div>
 					</div>
 					<div>
 						<div class="logoColumn d-flex align-items-center justify-content-center">
-							<a href="javascript:void(0);"><img src="images/p-logo2.png" alt="Partner Logo" class="img-fluid"></a>
+							<a href="/"><img src="images/p-logo2.png" alt="Partner Logo" class="img-fluid">.</a>
 						</div>
 					</div>
 					<div>
 						<div class="logoColumn d-flex align-items-center justify-content-center">
-							<a href="javascript:void(0);"><img src="images/p-logo3.png" alt="Partner Logo" class="img-fluid"></a>
+							<a href="/"><img src="images/p-logo3.png" alt="Partner Logo" class="img-fluid">.</a>
 						</div>
 					</div>
 					<div>
 						<div class="logoColumn d-flex align-items-center justify-content-center">
-							<a href="javascript:void(0);"><img src="images/p-logo4.png" alt="Partner Logo" class="img-fluid"></a>
+							<a href="/"><img src="images/p-logo4.png" alt="Partner Logo" class="img-fluid">.</a>
 						</div>
 					</div>
 					<div>
 						<div class="logoColumn d-flex align-items-center justify-content-center">
-							<a href="javascript:void(0);"><img src="images/p-logo5.png" alt="Partner Logo" class="img-fluid"></a>
+							<a href="/"><img src="images/p-logo5.png" alt="Partner Logo" class="img-fluid">.</a>
 						</div>
 					</div>
 					<div>
 						<div class="logoColumn d-flex align-items-center justify-content-center">
-							<a href="javascript:void(0);"><img src="images/p-logo6.png" alt="Partner Logo" class="img-fluid"></a>
+							<a href="/"><img src="images/p-logo6.png" alt="Partner Logo" class="img-fluid">.</a>
 						</div>
 					</div>
 					<div>
 						<div class="logoColumn d-flex align-items-center justify-content-center">
-							<a href="javascript:void(0);"><img src="images/p-logo4.png" alt="Partner Logo" class="img-fluid"></a>
+							<a href="/"><img src="images/p-logo4.png" alt="Partner Logo" class="img-fluid">.</a>
 						</div>
 					</div>
 				</div>
@@ -585,45 +585,45 @@
 				<h3 class="headingVI fwEbold text-uppercase mb-7">Contact Us</h3>
 				<ul class="list-unstyled footerContactList mb-3">
 					<li class="mb-3 d-flex flex-nowrap"><span class="icon icon-place mr-3"></span> <address class="fwEbold m-0">Address: London Oxford Street, 012 United Kingdom.</address></li>
-					<li class="mb-3 d-flex flex-nowrap"><span class="icon icon-phone mr-3"></span> <span class="leftAlign">Phone : <a href="javascript:void(0);">(+032) 3456 7890</a></span></li>
-					<li class="email d-flex flex-nowrap"><span class="icon icon-email mr-2"></span> <span class="leftAlign">Email:  <a href="javascript:void(0);">Botanicalstore@gmail.com</a></span></li>
+					<li class="mb-3 d-flex flex-nowrap"><span class="icon icon-phone mr-3"></span> <span class="leftAlign">Phone : <a href="/">(+032) 3456 7890</a></span></li>
+					<li class="email d-flex flex-nowrap"><span class="icon icon-email mr-2"></span> <span class="leftAlign">Email:  <a href="/">Botanicalstore@gmail.com</a></span></li>
 				</ul>
 				<ul class="list-unstyled followSocailNetwork d-flex flex-nowrap">
 					<li class="fwEbold mr-xl-11 mr-sm-6 mr-4">Follow  us:</li>
-					<li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-facebook-f"></a></li>
-					<li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-twitter"></a></li>
-					<li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-pinterest"></a></li>
-					<li class="mr-2"><a href="javascript:void(0);" class="fab fa-google-plus-g"></a></li>
+					<li class="mr-xl-6 mr-sm-4 mr-2"><a href="/" class="fab fa-facebook-f">.</a></li>
+					<li class="mr-xl-6 mr-sm-4 mr-2"><a href="/" class="fab fa-twitter">.</a></li>
+					<li class="mr-xl-6 mr-sm-4 mr-2"><a href="/" class="fab fa-pinterest">.</a></li>
+					<li class="mr-2"><a href="/" class="fab fa-google-plus-g">.</a></li>
 				</ul>
 			</div>
 			<div class="coll-2 mb-sm-4 mb-3 mb-lg-0">
 				<h3 class="headingVI fwEbold text-uppercase mb-6">Information</h3>
 				<ul class="list-unstyled footerNavList">
-					<li class="mb-1"><a href="javascript:void(0);">New Products</a></li>
-					<li class="mb-2"><a href="javascript:void(0);">Top Sellers</a></li>
-					<li class="mb-2"><a href="javascript:void(0);">Our Blog</a></li>
-					<li class="mb-2"><a href="javascript:void(0);">About Our Shop</a></li>
-					<li><a href="javascript:void(0);">Privacy policy</a></li>
+					<li class="mb-1"><a href="/">New Products</a></li>
+					<li class="mb-2"><a href="/">Top Sellers</a></li>
+					<li class="mb-2"><a href="/">Our Blog</a></li>
+					<li class="mb-2"><a href="/">About Our Shop</a></li>
+					<li><a href="/">Privacy policy</a></li>
 				</ul>
 			</div>
 			<div class="coll-3 mb-sm-4 mb-3 mb-lg-0">
 				<h3 class="headingVI fwEbold text-uppercase mb-6">My Account</h3>
 				<ul class="list-unstyled footerNavList">
-					<li class="mb-1"><a href="javascript:void(0);">My account</a></li>
-					<li class="mb-2"><a href="javascript:void(0);">Discount</a></li>
-					<li class="mb-2"><a href="javascript:void(0);">Orders history</a></li>
-					<li><a href="javascript:void(0);">Personal information</a></li>
+					<li class="mb-1"><a href="/">My account</a></li>
+					<li class="mb-2"><a href="/">Discount</a></li>
+					<li class="mb-2"><a href="/">Orders history</a></li>
+					<li><a href="/">Personal information</a></li>
 				</ul>
 			</div>
 			<div class="coll-4 mb-sm-4 mb-3 mb-lg-0">
 				<h3 class="headingVI fwEbold text-uppercase mb-7 pl-xl-14 pl-lg-10">Popular Tag</h3>
 				<ul class="list-unstyled tagNavList d-flex flex-wrap justify-content-lg-end mb-0">
-					<li class="text-center mb-2 mr-2"><a href="javascript:void(0);" class="md-round d-block py-2 px-2">Trend</a></li>
-					<li class="text-center mb-2"><a href="javascript:void(0);" class="md-round d-block py-2 px-2">Decor</a></li>
-					<li class="text-center mb-2 mr-2"><a href="javascript:void(0);" class="md-round d-block py-2 px-2">Plant</a></li>
-					<li class="text-center mb-2"><a href="javascript:void(0);" class="md-round d-block py-2 px-2">Table tree</a></li>
-					<li class="text-center mb-2 mr-2"><a href="javascript:void(0);" class="md-round d-block py-2 px-2">Bedroom tree</a></li>
-					<li class="text-center mb-2"><a href="javascript:void(0);" class="md-round d-block py-2 px-2">Living room</a></li>
+					<li class="text-center mb-2 mr-2"><a href="/" class="md-round d-block py-2 px-2">Trend</a></li>
+					<li class="text-center mb-2"><a href="/" class="md-round d-block py-2 px-2">Decor</a></li>
+					<li class="text-center mb-2 mr-2"><a href="/" class="md-round d-block py-2 px-2">Plant</a></li>
+					<li class="text-center mb-2"><a href="/" class="md-round d-block py-2 px-2">Table tree</a></li>
+					<li class="text-center mb-2 mr-2"><a href="/" class="md-round d-block py-2 px-2">Bedroom tree</a></li>
+					<li class="text-center mb-2"><a href="/" class="md-round d-block py-2 px-2">Living room</a></li>
 				</ul>
 			</div>
 		</div>

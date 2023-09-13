@@ -10,27 +10,27 @@
 			<!-- langList -->
 			<ul class="nav nav-tabs langList pt-xl-6 pt-lg-4 pt-3 border-bottom-0">
 				<li>
-					<a class="icon-menu" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="true" aria-expanded="false"></a>
+					<a href="/" class="icon-menu" data-toggle="dropdown"role="button" aria-haspopup="true" aria-expanded="false">.</a>
 					<div class="dropdown-menu pl-4 pr-4">
-						<a class="dropdown-item" href="javascript:void(0);">Login</a>
-						<a class="dropdown-item" href="javascript:void(0);">Registration</a>
-						<a class="dropdown-item" href="javascript:void(0);">Logout</a>
+						<a class="dropdown-item" href="/">Login</a>
+						<a class="dropdown-item" href="/">Registration</a>
+						<a class="dropdown-item" href="/">Logout</a>
 					</div>
 				</li>
 				<li class="dropdown">
-					<a class="dropdown-toggle text-uppercase" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="true" aria-expanded="false">ENG</a>
+					<a class="dropdown-toggle text-uppercase" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">ENG</a>
 					<div class="dropdown-menu pl-4 pr-4">
-						<a class="dropdown-item" href="javascript:void(0);">English</a>
-						<a class="dropdown-item" href="javascript:void(0);">Vietnamese</a>
-						<a class="dropdown-item" href="javascript:void(0);">French</a>
+						<a class="dropdown-item" href="/">English</a>
+						<a class="dropdown-item" href="/">Vietnamese</a>
+						<a class="dropdown-item" href="/">French</a>
 					</div>
 				</li>
 				<li class="dropdown">
-					<a class="dropdown-toggle text-uppercase" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="true" aria-expanded="false">USD</a>
+					<a class="dropdown-toggle text-uppercase" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">USD</a>
 					<div class="dropdown-menu text-uppercase pl-4 pr-4 border-0">
-						<a class="dropdown-item" href="javascript:void(0);">USD</a>
-						<a class="dropdown-item" href="javascript:void(0);">VND</a>
-						<a class="dropdown-item" href="javascript:void(0);">euro</a>
+						<a class="dropdown-item" href="/">USD</a>
+						<a class="dropdown-item" href="/">VND</a>
+						<a class="dropdown-item" href="/">euro</a>
 					</div>
 				</li>
 			</ul>
@@ -49,7 +49,7 @@
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav mx-auto text-uppercase d-inline-block">
 							<li class="nav-item active dropdown">
-								<a class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">home</a>
+								<a href="/" class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">home</a>
 								<ul class="list-unstyled text-capitalize border-right border-bottom border-left dropdown-menu mt-0 py-0">
 									<li class="d-block mx-0"><a href="home.html">Home 1</a></li>
 									<li class="d-block mx-0"><a href="home2.html">Home 2</a></li>
@@ -57,7 +57,7 @@
 								</ul>
 							</li>
 							<li class="nav-item dropdown">
-								<a class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Store</a>
+								<a href="/" class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Store</a>
 								<ul class="list-unstyled text-capitalize border-right border-bottom border-left dropdown-menu mt-0 py-0">
 									<li class="d-block mx-0"><a href="shop.html">Shop Left Sidebar</a></li>
 									<li class="d-block mx-0"><a href="shop-detail.html">Single Product</a></li>
@@ -70,14 +70,14 @@
 								<a class="nLogo" href="home.html"><img src="images/logo.png" alt="Botanical" class="img-fluid"></a>
 							</li>
 							<li class="nav-item dropdown">
-								<a class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+								<a href="/" class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
 								<ul class="list-unstyled text-capitalize border-right border-bottom border-left dropdown-menu mt-0 py-0">
 									<li class="d-block mx-0"><a href="blog.html">Blog Left Sidebar</a></li>
 									<li class="d-block mx-0"><a href="blog-detail.html">Blog Detail</a></li>
 								</ul>
 							</li>
 							<li class="nav-item dropdown">
-								<a class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+								<a href="/" class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
 								<ul class="list-unstyled text-capitalize border-right border-bottom border-left dropdown-menu mt-0 py-0">
 									<li class="d-block mx-0"><a href="cart-page.html">Cart Page</a></li>
 								</ul>
@@ -96,9 +96,9 @@
 		<div class="col-6 col-sm-3 col-lg-2 order-sm-3 order-md-0 dis-none">
 			<!-- wishList -->
 			<ul class="nav nav-tabs wishList pt-xl-5 pt-lg-4 pt-3 mr-xl-3 mr-0 justify-content-end border-bottom-0">
-				<li class="nav-item"><a class="nav-link icon-search" href="javascript:void(0);"></a></li>
-				<li class="nav-item"><a class="nav-link position-relative icon-heart" href="javascript:void(0);"><span class="num rounded d-block">1</span></a></li>
-				<li class="nav-item"><a class="nav-link position-relative icon-cart" href="javascript:void(0);"><span class="num rounded d-block">2</span></a></li>
+				<li class="nav-item"><a class="nav-link icon-search" href="/">0</a></li>
+				<li class="nav-item"><a class="nav-link position-relative icon-heart" href="/"><span class="num rounded d-block">1</span></a></li>
+				<li class="nav-item"><a class="nav-link position-relative icon-cart" href="/"><span class="num rounded d-block">2</span></a></li>
 			</ul>
 		</div>
 	</div>
