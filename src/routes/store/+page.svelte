@@ -63,8 +63,8 @@
 									<img src="images/products/{product.image}" alt="description" class="img-fluid w-100 h-[300px] object-contain" />
 									<!-- svelte-ignore a11y-missing-content -->
 									<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-										<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block" /></li>
-										<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block" /></li>
+											<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block" /></li>
+											<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block" /></li>
 									</ul>
 								</div>
 								<div class="text-center py-5 px-4">

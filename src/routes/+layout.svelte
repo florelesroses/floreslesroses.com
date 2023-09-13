@@ -88,7 +88,7 @@
 			<h3 class="headingVI fwEbold text-uppercase mb-7 pl-xl-14 pl-lg-10">Categorías</h3>
 			<ul class="list-unstyled tagNavList d-flex flex-wrap justify-content-lg-end mb-0">
 				{#each PRODUCTS_TAGS as category}
-					<li class="text-center mb-2 mr-2"><a href="/product?tag={category}" class="md-round d-block py-2 px-2">{category}</a></li>
+					<li class="text-center mb-2 mr-2"><a href="/store?tag={category}" class="md-round d-block py-2 px-2">{category}</a></li>
 				{/each}
 			</ul>
 		</div>
