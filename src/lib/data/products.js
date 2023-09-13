@@ -1098,3 +1098,5 @@ const PRODUCTS = [
         state: 1
     }
 ]
+
+export default PRODUCTS
