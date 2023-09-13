@@ -1,24 +1,68 @@
 <script>
 	import { INFO_COMPANY } from '$lib/data/info';
+	let name = '',
+		phone = '',
+		message = '',
+		email = '';
+	let visible = false;
+	let response_form = false;
+	let msg = '';
+	const URL = 'https://formspree.io/f/xvojqzzk';
+	async function sendFormContact() {
+		visible = true;
+		if (name == '' || phone == '' || email == '' || message == '') {
+			msg = '⚠️ Complete todos los campos';
+			return false;
+		}
+
+		try {
+			const dataBody = JSON.stringify({
+				name: name,
+				phone: phone,
+				email: email,
+				message: message
+			});
+			const response = await fetch(URL, {
+				method: 'POST',
+				body: dataBody,
+				headers: {
+					Accept: 'application/json'
+				}
+			});
+
+			if (!response) {
+				response_form = false;
+				msg = 'Fallo en el servidor, intente más tarde';
+			} else {
+				response_form = true;
+				msg = 'El mensaje se ha enviado con éxito';
+				name = '';
+				phone = '';
+				email = '';
+				message = '';
+			}
+		} catch (error) {
+			console.error(error);
+		}
+	}
 </script>
 
 <svelte:head>
 	<title>Contacto: Flores Les Roses</title>
 </svelte:head>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class="contactSec container pt-xl-24 pb-xl-23 py-lg-20 pt-md-16 pb-md-10 pt-10 pb-0 ">
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="contactSec container pt-xl-24 pb-xl-23 py-lg-20 pt-md-16 pb-md-10 pt-10 pb-0">
 	<div class="row">
-		
 		<div class="col-12">
 			<ul class="list-unstyled contactListHolder mb-0 d-flex flex-wrap text-center">
 				<li class="mb-lg-0 mb-6">
 					<span class="icon d-block mx-auto bg-lightGray py-4 mb-4"><i class="fas fa-map-marker-alt" /></span>
 					<strong class="title text-uppercase playfair mb-5 d-block">Dirección</strong>
-					<address class="mb-0"> {INFO_COMPANY.ADDRESS} -<span class="d-block"> {INFO_COMPANY.CITY} </span></address>
+					<address class="mb-0">{INFO_COMPANY.ADDRESS} -<span class="d-block"> {INFO_COMPANY.CITY} </span></address>
 				</li>
 				<li class="mb-lg-0 mb-6">
 					<span class="icon d-block mx-auto bg-lightGray py-4 mb-3"><i class="fas fa-headphones" /></span>
@@ -52,30 +96,35 @@
 			<form class="contactForm">
 				<div class="d-flex flex-wrap row1 mb-md-1">
 					<div class="form-group coll mb-5">
-						<input type="text" id="name" class="form-control text-custom"  placeholder="Tú nombre  *" />
+						<input type="text" id="name" class="form-control text-custom" bind:value={name} placeholder="Tú nombre  *" />
 					</div>
 					<div class="form-group coll mb-5">
-						<input type="email" class="form-control text-custom" placeholder="Tu email  *" />
+						<input type="email" class="form-control text-custom" bind:value={email} placeholder="Tu email  *" />
 					</div>
 					<div class="form-group coll mb-5">
-						<input type="tel" class="form-control text-custom" placeholder="Número de teléfono  *" />
+						<input type="tel" class="form-control text-custom" bind:value={phone} placeholder="Número de teléfono  *" />
 					</div>
 				</div>
 				<div class="form-group w-100 mb-6">
-					<textarea class="form-control text-custom" placeholder="Meesage  *" />
+					<textarea class="form-control text-custom" placeholder="Meesage  *" bind:value={message} />
 				</div>
 				<div class="text-center">
 					<button type="submit" class="btn btnTheme btnShop md-round fwEbold text-white py-3 px-4 py-md-3 px-md-4">Send Message</button>
 				</div>
-				<button class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Enviar <i class="fas fa-arrow-right ml-2" /></button>
+				{#if visible}
+					<p class={response_form ? 'text-green-600' : 'text-red-800'}>{msg}</p>
+				{/if}
+				<br />
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-static-element-interactions -->
+				<div on:click={sendFormContact} class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Enviar <i class="fas fa-arrow-right ml-2" /></div>
 			</form>
 		</div>
 	</div>
 </section>
 
-
 <style>
-	.text-custom{
-		color: rgb(78, 78, 78)  ;
+	.text-custom {
+		color: rgb(78, 78, 78);
 	}
 </style>
