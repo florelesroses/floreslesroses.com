@@ -1,6 +1,9 @@
 <script>
+// @ts-nocheck
+
 	import PRODUCTS from '$lib/data/products';
 	import { formatMoney } from '$lib/helpers/helper';
+	import { openWompi } from '$lib/helpers/paymentGateway';
 
 	function shuffleArray(array) {
 		for (let i = array.length - 1; i > 0; i--) {
@@ -141,10 +144,13 @@
 					<div class="border">
 						<div class="imgHolder position-relative w-100 overflow-hidden">
 							<img src="images/products/{product.image}" alt="description" class="img-fluid w-100 h-[300px] object-contain" />
-							<!-- svelte-ignore a11y-missing-content -->
+							<!-- svelte-ignore a11y-no-static-element-interactions -->
+							<!-- svelte-ignore a11y-missing-attribute -->
+							<!-- svelte-ignore a11y-click-events-have-key-events -->
 							<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-								<li class="mr-2 overflow-hidden"><a href="/" class="icon-cart d-block" /></li>
-								<li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block" /></li>
+								<li class="mr-2 overflow-hidden">
+									<a class="icon-cart d-block" on:click={() => openWompi(product.price)}> <span /> </a>
+								</li>
 							</ul>
 						</div>
 						<div class="text-center py-5 px-2">
