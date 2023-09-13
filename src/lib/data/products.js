@@ -50,7 +50,7 @@ const PRODUCTS = [
         image: "Screenshot_6.png",
         price: "60000",
         description: "Planta de anturio blanco perfecto para decorar tus espacios o para regalar.",
-        category: "Otras Plantas",
+        category: "Bonsaí",
         state: 1
     },
     {
@@ -523,10 +523,10 @@ const PRODUCTS = [
     },
     {
         id:59,
-        name: "Flores De Rosas Y Hershey´s ",
+        name: "Flores De Rosas Y Hershey's ",
         image: "Screenshot_59.png",
         price: "100000",
-        description: "Bouquet de 12 rosas surtidas blancas y rojas con 1 chocolate de Hershey´s",
+        description: "Bouquet de 12 rosas surtidas blancas y rojas con 1 chocolate de Hershey's",
         category: "Ramos Y Bouquets",
         state: 1
     },
