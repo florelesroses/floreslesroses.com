@@ -99,7 +99,7 @@
 </aside>
 <footer id="footer" class="container-fluid overflow-hidden px-lg-20">
 	<div class="copyRightHolder text-center pt-lg-5 pb-lg-4 py-3">
-		<p class="mb-0">©Copyright All Rights Reserved.</p>
+		<p class="mb-0">©Copyright - Flores Les Roses - All Rights Reserved.</p>
 	</div>
 </footer>
 
