@@ -4,6 +4,7 @@
 	import PRODUCTS from '$lib/data/products';
 	import { formatMoney } from '$lib/helpers/helper';
 	import { openWompi } from '$lib/helpers/paymentGateway';
+	import { fade } from 'svelte/transition';
 
 	function shuffleArray(array) {
 		for (let i = array.length - 1; i > 0; i--) {
@@ -18,7 +19,7 @@
 <svelte:head>
 	<title>Home Page</title>
 </svelte:head>
-
+<section class="w-full" in:fade={{ duration: 400 }} out:fade={{ duration: 400 }}>
 <section class="introBlock position-relative">
 	<div class="slick-fade">
 		<div>
@@ -162,4 +163,5 @@
 			</div>
 		{/each}
 	</div>
+</section>
 </section>
