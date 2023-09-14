@@ -18,7 +18,7 @@
 				<p class="pr-xl-16 pr-lg-10 mb-lg-0 mb-6">En Flores Le Roses, nuestra historia se teje con los hilos de la pasión, la dedicación y la admiración por la belleza natural. Desde nuestros inicios en Bogotá, hemos abrazado el arte de las flores con un compromiso inquebrantable. Lo que comenzó como una modesta floristería local se ha convertido en un faro de emociones florales, donde cada pétalo cuenta una historia de amor, amistad y gratitud.</p>
 			</div>
 			<div class="col-12 col-lg-6">
-				<img src="images/img80.jpg" alt="description" class="img-fluid" />
+				<img src="https://images.pexels.com/photos/1103624/pexels-photo-1103624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="description" class="img-fluid rounded-2xl" />
 			</div>
 		</div>
 	</section>
@@ -48,7 +48,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-lg-6 mb-lg-0 mb-6">
-					<img src="images/img81.png" alt="description" class="img-fluid" />
+					<img src="https://images.pexels.com/photos/1859585/pexels-photo-1859585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="description" class="img-fluid rounded-2xl" />
 				</div>
 				<div class="col-12 col-lg-6">
 					<div id="accordion" class="accordionList pt-lg-12">
