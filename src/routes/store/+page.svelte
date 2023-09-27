@@ -6,7 +6,6 @@
 	import { countCartItems, shoppingCartAddProduct } from '$lib/cart/shoppingCart.js';
 	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
-	import { Confetti } from "svelte-confetti"
 	export let data;
 	import { itemsCart } from '$lib/cart/StoreCart';
 	let filter = data.filter;
@@ -74,7 +73,7 @@
 					</header>
 					<div class="row">
 						{#each PRODUCTS_SHOWING as product}
-							<div class="col-12 col-sm-6 col-lg-3 featureCol mb-7">
+							<div class="col-12 col-sm-6 col-lg-3 featureCol mb-7" data-aos="fade-down">
 								<div class="border">
 									<div class="imgHolder position-relative w-100 overflow-hidden">
 										<img src="images/products/{product.image}" alt="description" class="img-fluid w-100 h-[300px] object-contain" />
@@ -82,7 +81,7 @@
 										<!-- svelte-ignore a11y-missing-attribute -->
 										<!-- svelte-ignore a11y-click-events-have-key-events -->
 										<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-											<li class="mr-2 overflow-hidden"  style="border-radius: 20px;">
+											<li class="mr-2 overflow-hidden" style="border-radius: 20px;">
 												<a class="icon-cart d-block" on:click={() => addToCart(product.id)}> <span /> </a>
 											</li>
 											<!-- <li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block" /></li> -->

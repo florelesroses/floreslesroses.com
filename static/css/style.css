@@ -264,20 +264,8 @@ a {
   font-family: "Playfair Display", serif;
 }
 
-.introBlock h1:before {
-  content: '';
-  position: absolute;
-  top: auto;
-  right: auto;
-  bottom: 0;
-  left: 0;
-}
 
-.introBlock h1:before {
-  width: 100px;
-  height: 5px;
-  background: #333333;
-}
+
 
 .introBlock h2 {
   font-size: 25px;

@@ -4,6 +4,14 @@
 	import { INFO_COMPANY, PRODUCTS_TAGS, SOCIAL } from '$lib/data/info';
 	import { itemsCart } from '$lib/cart/StoreCart';
 	import { Confetti } from 'svelte-confetti';
+	import { onMount } from 'svelte';
+	import 'aos/dist/aos.css';
+	import AOS from 'aos';
+	onMount(() => {
+		AOS.init();
+		AOS.refresh();
+	});
+	
 	preparePageTransition();
 
 	let cart = 0;
