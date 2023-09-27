@@ -2,16 +2,30 @@
 	import '../app.css';
 	import { preparePageTransition } from '$lib/config/page-transition';
 	import { INFO_COMPANY, PRODUCTS_TAGS, SOCIAL } from '$lib/data/info';
-
+	import { itemsCart } from '$lib/cart/StoreCart';
+	import { Confetti } from 'svelte-confetti';
 	preparePageTransition();
+
+	let cart = 0;
+	let allow_confetti = false;
+
+	itemsCart.subscribe((v) => {
+		cart = v;
+		if (cart > 0) {
+			allow_confetti = true;
+			setTimeout(() => {
+				allow_confetti = false;
+			}, 2000);
+		}
+	});
 </script>
 
-<header id="header" class="pt-lg-5 pt-md-3 pt-2 position-absolute w-100">
+<header id="header" class="pt-lg-5 pt-md-3 pt-2 position-absolute w-100 relative">
 	<div class="container-fluid px-xl-17 px-lg-5 px-md-3 px-0 d-flex flex-wrap">
 		<div class="col-6 col-sm-3 col-lg-2 order-sm-2 order-md-0 dis-none">
 			<ul class="nav nav-tabs langList pt-xl-6 pt-lg-4 pt-3 border-bottom-0" />
 		</div>
-		<div class="col-12 col-sm-6 col-lg-8 static-block">
+		<div class="col-12 col-sm-6 col-lg-8 static-block relative">
 			<div class="mainHolder justify-content-center">
 				<nav class="navbar navbar-expand-lg navbar-light p-0 pageNav1 position-static">
 					<div class="navbar-toggle" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false">
@@ -46,11 +60,20 @@
 					</div>
 				</nav>
 				<div class="logo">
-					<a href="home.html"><img src="/images/logo.png" alt="Botanical" class="img-fluid" /></a>
+					<a href="/"><img src="/images/logo.png" alt="Botanical" class="img-fluid" /></a>
 				</div>
 			</div>
 		</div>
 		<div class="col-6 col-sm-3 col-lg-2 order-sm-3 order-md-0 dis-none" />
+	</div>
+	<div class="w-[30px] h-[70px] pt-2 pr-20 pl-5 fixed top-0 mt-32 md:mt-5 lg:mt-5 right-0 bg-[#FDC1C8] rounded-l-2xl z-50">
+		<div class="relative">
+			{#if allow_confetti}
+				<Confetti />
+			{/if}
+			<div class="bg-red-900 absolute left-10 rounded-full w-[25px] h-[25px] flex justify-center items-center text-white">{cart}</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-white w-[50px]"><path d="M5 7h13.79a2 2 0 0 1 1.99 2.199l-.6 6A2 2 0 0 1 18.19 17H8.64a2 2 0 0 1-1.962-1.608L5 7z" /><path d="M5 7l-.81-3.243A1 1 0 0 0 3.22 3H2" /><path d="M8 21h2" /><path d="M16 21h2" /></svg>
+		</div>
 	</div>
 </header>
 <main>

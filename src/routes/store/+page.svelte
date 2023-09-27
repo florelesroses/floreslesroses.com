@@ -2,14 +2,19 @@
 	import { PRODUCTS_TAGS } from '$lib/data/info';
 	import PRODUCTS from '$lib/data/products.js';
 	import { formatMoney } from '$lib/helpers/helper';
-	import { openWompi } from '$lib/helpers/paymentGateway.js';
+	import Alert from '$lib/components/Alert.svelte';
+	import { countCartItems, shoppingCartAddProduct } from '$lib/cart/shoppingCart.js';
 	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
+	import { Confetti } from "svelte-confetti"
 	export let data;
-
+	import { itemsCart } from '$lib/cart/StoreCart';
 	let filter = data.filter;
 	let PRODUCTS_SHOWING = [];
 	let total_products = 0;
+	let open = false;
+	let message = '';
+	let title = '';
 
 	onMount(() => {
 		updateProducts(filter);
@@ -24,12 +29,21 @@
 		filter = filter_py;
 		total_products = PRODUCTS_SHOWING.length;
 	}
+
+	function addToCart(id) {
+		shoppingCartAddProduct(id);
+		open = true;
+		title = 'Producto agregado';
+		message = 'El producto esta en tu carrito';
+		itemsCart.update((n) => countCartItems());
+	}
 </script>
 
 <svelte:head>
 	<title>Tienda: Flores Les Roses</title>
 </svelte:head>
 
+<Alert bind:open {message} {title} />
 <section class="w-full" in:fade={{ duration: 400 }} out:fade={{ duration: 400 }}>
 	<section class="introBannerHolder d-flex w-100 bgCover" style="filter: blur(1.5rem);background-image: url(https://images.pexels.com/photos/1103624/pexels-photo-1103624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);" />
 	<div class="twoColumns container pt-lg-23 pb-lg-20 pt-md-16 pb-md-4 pt-10 pb-4">
@@ -68,8 +82,8 @@
 										<!-- svelte-ignore a11y-missing-attribute -->
 										<!-- svelte-ignore a11y-click-events-have-key-events -->
 										<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-											<li class="mr-2 overflow-hidden">
-												<a class="icon-cart d-block" on:click={() => openWompi(product.price)}> <span /> </a>
+											<li class="mr-2 overflow-hidden"  style="border-radius: 20px;">
+												<a class="icon-cart d-block" on:click={() => addToCart(product.id)}> <span /> </a>
 											</li>
 											<!-- <li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block" /></li> -->
 										</ul>
