@@ -7,11 +7,12 @@
 	import { onMount } from 'svelte';
 	import 'aos/dist/aos.css';
 	import AOS from 'aos';
+	import { goto } from '$app/navigation';
 	onMount(() => {
 		AOS.init();
 		AOS.refresh();
 	});
-	
+
 	preparePageTransition();
 
 	let cart = 0;
@@ -74,7 +75,14 @@
 		</div>
 		<div class="col-6 col-sm-3 col-lg-2 order-sm-3 order-md-0 dis-none" />
 	</div>
-	<div class="w-[30px] h-[70px] pt-2 pr-20 pl-5 fixed top-0 mt-32 md:mt-5 lg:mt-5 right-0 bg-[#FDC1C8] rounded-l-2xl z-50">
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	<!-- svelte-ignore a11y-no-static-element-interactions -->
+	<div
+		class="w-[30px] h-[70px] pt-2 pr-20 pl-5 fixed top-0 mt-32 md:mt-5 lg:mt-5 right-0 bg-[#FDC1C8] rounded-l-2xl z-50"
+		on:click={() => {
+			goto('/checkout');
+		}}
+	>
 		<div class="relative">
 			{#if allow_confetti}
 				<Confetti />

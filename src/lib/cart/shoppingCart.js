@@ -15,15 +15,15 @@ function saveShoppingCart(cart) {
     }
 }
 
-// Función para agregar un producto al carrito
-export function shoppingCartAddProduct(id, amount = 1) {
+// Función para agregar un producto al carrito con precio
+export function shoppingCartAddProduct(id, price, amount = 1) {
     const cart = getShoppingCart();
     const existingItem = cart.find(item => item.id === id);
-
+    price = parseInt(price)
     if (existingItem) {
         existingItem.amount += amount;
     } else {
-        cart.push({ id, amount });
+        cart.push({ id, price, amount });
     }
 
     saveShoppingCart(cart);
@@ -36,7 +36,10 @@ export function shoppingCartUpdateQuantity(id, sign) {
 
     if (itemToUpdate) {
         if (sign === "+") {
-            itemToUpdate.amount++;
+            // Verificar si la cantidad actual es menor que 5 antes de incrementarla
+            if (itemToUpdate.amount < 5) {
+                itemToUpdate.amount++;
+            }
         } else if (sign === "-" && itemToUpdate.amount > 1) {
             itemToUpdate.amount--;
         }
@@ -62,6 +65,17 @@ export function countCartItems() {
     const totalItems = cart.reduce((count, item) => count + item.amount, 0);
     return totalItems;
 }
+
+// Función para calcular el total del carrito
+export function calculateCartTotal() {
+    const cart = getShoppingCart();
+    let total = 0;
+    for (const item of cart) {
+        total += item.price * item.amount;
+    }
+    return total;
+}
+
 
 // Ejemplos de uso:
 // Agregar un producto al carrito

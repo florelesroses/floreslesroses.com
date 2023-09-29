@@ -1,4 +1,5 @@
 import { goto } from "$app/navigation";
+import { calculateCartTotal } from "$lib/cart/shoppingCart";
 
 let visible = false;
 let state_response = false;
@@ -14,8 +15,8 @@ function generarReference() {
 
     return referencia;
 }
-export function openWompi(price = 0) {
-    const valueCart = price;
+export async function openWompi(price = 0) {
+    const valueCart = calculateCartTotal();
     // @ts-ignore
     var wompi = new WidgetCheckout({
         currency: 'COP',
@@ -25,16 +26,11 @@ export function openWompi(price = 0) {
     });
     wompi.open(function (result) {
         var transaction = result.transaction;
-
+        console.log('return',transaction.status);
         if (transaction.status == 'APPROVED') {
-            goto('success')
-        } else {
-            visible = true;
-            state_response = false;
+            goto('/checkout/success')   
         }
-    });
-}
 
-function changeVisibility() {
-    visible = false;
+    });
+    return 'error'
 }

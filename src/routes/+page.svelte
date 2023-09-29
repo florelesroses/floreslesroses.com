@@ -16,8 +16,8 @@
 	const RANDOM_PRODUCTS = PRODUCTS.slice(0, 4);
 	let open = false;
 	let title, message;
-	function addToCart(id) {
-		shoppingCartAddProduct(id);
+	function addToCart(id,price) {
+		shoppingCartAddProduct(id,price);
 		open = true;
 		title = 'Producto agregado';
 		message = 'El producto esta en tu carrito';
@@ -34,7 +34,7 @@
 		<div class="h-full flex justify-center items-center">
 			<div class="">
 				<h1 data-aos="fade-down" data-aos-delay="200" class="text-6xl w-full font-extrabold text-center">Flores <span>Les roses</span></h1>
-				<p data-aos="fade-down" data-aos-delay="300" class="w-full text-center text-3xl">Un homena a nuestar hermosa Colombia</p>
+				<p data-aos="fade-down" data-aos-delay="300" class="w-full text-center text-3xl">Un homenaje a nuestar hermosa Colombia</p>
 			</div>
 		</div>
 	</section>
@@ -121,7 +121,7 @@
 							<!-- svelte-ignore a11y-click-events-have-key-events -->
 							<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
 								<li class="mr-2 overflow-hidden" style="border-radius: 20px;">
-									<a class="icon-cart d-block" on:click={() => addToCart(product.id)}> <span /> </a>
+									<a class="icon-cart d-block" on:click={() => addToCart(product.id,product.price)}> <span /> </a>
 								</li>
 								<!-- <li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block" /></li> -->
 							</ul>

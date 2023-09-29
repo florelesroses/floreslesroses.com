@@ -6,6 +6,8 @@ export const INFO_COMPANY = {
     EMAIL_SEONDARY: 'contacto@floreslesroses.com',
     EMAIL_THIRD: 'operaciones@floreslesroses.com',
     ADDRESS: 'Cra 19a #77-18 Local 105',
+    ADDRESS2: 'Calle 8#10-75 - Cali',
+    ADDRESS3: 'Carrera 92 35b 61 santa Mónica - Medellín',
     COUNTRY_CODE: '+57',
     COUNTRY: 'Colombia',
     CITY: 'Bogotá DC',
@@ -14,11 +16,7 @@ export const INFO_COMPANY = {
     SECONDARY_COLOR: '#A993F1',
 }
 export const SOCIAL = {
-    FACEBOOK: '',
     INSTAGRAM: 'https://www.instagram.com/floreslesroses/',
-    X: '',
-    TIKTOK: '',
-    TELEGRAM: '',
     WHATSAPP: 'https://api.whatsapp.com/send/?phone=573107852852',
 }
 export const PRODUCTS_TAGS = ["Globos Y Bombas", "Bonsaí", "Ramos Y Bouquets", "Cajas florales", "Otros Arreglos Florales", "Peluches", "Chocolates Y Confitería", "Orquídeas", "Amor", "Felicitaciones"]

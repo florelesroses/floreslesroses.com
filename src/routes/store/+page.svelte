@@ -29,8 +29,8 @@
 		total_products = PRODUCTS_SHOWING.length;
 	}
 
-	function addToCart(id) {
-		shoppingCartAddProduct(id);
+	function addToCart(id,price) {
+		shoppingCartAddProduct(id,price);
 		open = true;
 		title = 'Producto agregado';
 		message = 'El producto esta en tu carrito';
@@ -82,7 +82,7 @@
 										<!-- svelte-ignore a11y-click-events-have-key-events -->
 										<ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
 											<li class="mr-2 overflow-hidden" style="border-radius: 20px;">
-												<a class="icon-cart d-block" on:click={() => addToCart(product.id)}> <span /> </a>
+												<a class="icon-cart d-block" on:click={() => addToCart(product.id,product.price)}> <span /> </a>
 											</li>
 											<!-- <li class="mr-2 overflow-hidden"><a href="/" class="icon-eye d-block" /></li> -->
 										</ul>

@@ -59,27 +59,27 @@
 				<ul class="list-unstyled contactListHolder mb-0 d-flex flex-wrap text-center">
 					<li class="mb-lg-0 mb-6">
 						<span class="icon d-block mx-auto bg-lightGray py-4 mb-4"><i class="fas fa-map-marker-alt" /></span>
-						<strong class="title text-uppercase playfair mb-5 d-block">Dirección</strong>
+						<strong class="title text-uppercase playfair mb-5 d-block">Bogotá</strong>
 						<address class="mb-0">{INFO_COMPANY.ADDRESS} -<span class="d-block"> {INFO_COMPANY.CITY} </span></address>
 					</li>
 					<li class="mb-lg-0 mb-6">
-						<span class="icon d-block mx-auto bg-lightGray py-4 mb-3"><i class="fas fa-headphones" /></span>
-						<strong class="title text-uppercase playfair mb-5 d-block">Teléfono</strong>
-						<a href="tel:84123456789" class="d-block">({INFO_COMPANY.COUNTRY_CODE}) - {INFO_COMPANY.PHONE}</a>
+						<span class="icon d-block mx-auto bg-lightGray py-4 mb-4"><i class="fas fa-map-marker-alt" /></span>
+						<strong class="title text-uppercase playfair mb-5 d-block">Cali</strong>
+						<address class="mb-0">{INFO_COMPANY.ADDRESS2} -<span class="d-block"> {INFO_COMPANY.CITY} </span></address>
 					</li>
 					<li class="mb-lg-0 mb-6">
-						<span class="icon d-block mx-auto bg-lightGray py-5 mb-3"><i class="fas fa-envelope" /></span>
-						<strong class="title text-uppercase playfair mb-5 d-block">email</strong>
-						<a class="d-block" href="mailto:{INFO_COMPANY.EMAIL}"> {INFO_COMPANY.EMAIL} </a>
-						<a class="d-block" href="mailto:{INFO_COMPANY.EMAIL_SEONDARY}"> {INFO_COMPANY.EMAIL_SEONDARY} </a>
-						<a class="d-block" href="mailto:{INFO_COMPANY.EMAIL_THIRD}"> {INFO_COMPANY.EMAIL_THIRD} </a>
+						<span class="icon d-block mx-auto bg-lightGray py-4 mb-4"><i class="fas fa-map-marker-alt" /></span>
+						<strong class="title text-uppercase playfair mb-5 d-block">Medellín</strong>
+						<address class="mb-0">{INFO_COMPANY.ADDRESS3} -<span class="d-block"> {INFO_COMPANY.CITY} </span></address>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div class="mapHolder">
+	<div class="mapHolder flex">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.608516751306!2d-74.06332752417892!3d4.663684341975599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a59204c792f%3A0x1b40ce84d1f19260!2sCra.%2019a%20%2377-18%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1694641198394!5m2!1ses-419!2sco" style="border:0;" title="Flores Les Roses" allowfullscreen={false} loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.6039141021074!2d-76.5338848!3d3.4460916999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a662579d91a7%3A0x67ca88e65a15ff3f!2sCl%208%20%2310-75%2C%20COMUNA%203%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1sen!2sco!4v1695963349600!5m2!1sen!2sco" style="border:0;" title="Flores Les Roses" allowfullscreen={false} loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.117570541687!2d-75.614205!3d6.248234699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429823cdbd65d%3A0xfd63726ec7f69678!2sCra.%2092%20%2335c%2014%2C%20Santa%20Monica%2C%20Medell%C3%ADn%2C%20La%20Am%C3%A9rica%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1sen!2sco!4v1695963408243!5m2!1sen!2sco" style="border:0;" title="Flores Les Roses" allowfullscreen={false} loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
 	</div>
 	<section class="contactSecBlock container pt-xl-23 pb-xl-24 pt-lg-20 pb-lg-10 pt-md-16 pb-md-8 py-10">
 		<div class="row">
