@@ -19,6 +19,10 @@ export const SOCIAL = {
     INSTAGRAM: 'https://www.instagram.com/floreslesroses/',
     WHATSAPP: 'https://api.whatsapp.com/send/?phone=573107852852',
 }
+export const KEYS = {
+    PUB_TEST: 'pub_test_yDEnaDR32EmlonYucrASRiuLHPw1WPEx',
+    PUB_PROD: 'pub_prod_lR1cqqULekr8tMMWssquDZT7Z0oeNsfh',
+}
 export const PRODUCTS_TAGS = ["Globos Y Bombas", "Bonsaí", "Ramos Y Bouquets", "Cajas florales", "Otros Arreglos Florales", "Peluches", "Chocolates Y Confitería", "Orquídeas", "Amor", "Felicitaciones"]
 
 export const FACTS = {

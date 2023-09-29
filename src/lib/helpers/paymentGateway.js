@@ -1,8 +1,7 @@
 import { goto } from "$app/navigation";
 import { calculateCartTotal } from "$lib/cart/shoppingCart";
+import { KEYS } from "$lib/data/info";
 
-let visible = false;
-let state_response = false;
 function generarReference() {
     const REFERENCE = 'FL';
     const caracteresPermitidos = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
@@ -22,7 +21,7 @@ export async function openWompi(price = 0) {
         currency: 'COP',
         amountInCents: `${valueCart}00`,
         reference: generarReference(),
-        publicKey: 'pub_test_cW5h71eHppMV0xD8EWC02YrN7mIDMhEm'
+        publicKey: KEYS.PUB_TEST
     });
     wompi.open(function (result) {
         var transaction = result.transaction;
